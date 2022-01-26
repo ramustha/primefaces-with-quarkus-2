@@ -27,19 +27,23 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
+
     <dependency>
       <groupId>org.apache.myfaces.core.extensions.quarkus</groupId>
       <artifactId>myfaces-quarkus</artifactId>
       <version>2.3-next-M6</version>
     </dependency>
     <dependency>
+      <groupId>org.primefaces</groupId>
+      <artifactId>primefaces</artifactId>
+      <version>11.0.0</version>
+    </dependency>
+
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-resteasy</artifactId>
-    </dependency>
+
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5</artifactId>
